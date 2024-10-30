@@ -1,5 +1,4 @@
 import Category from "./Category";
-import { probLess, valueWithFreeD6, fact, bin, probLessOfN } from "./Utils";
 
 class CacheEntry {
     d10: number;
@@ -205,8 +204,6 @@ abstract class StraightCategory extends Category {
         if(this.check(d10, d6s)) {
             return [1, 1, 1];
         }
-
-        const dice = [d10, ...d6s];
 
         return [
             this.calcChances(d10, d6s, 1),
