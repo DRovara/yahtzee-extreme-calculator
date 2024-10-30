@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/yahtzee-extreme-calculator/static/css/main.d0b74a75.css",
+    "main.js": "/yahtzee-extreme-calculator/static/js/main.54c2b3d0.js",
+    "static/js/453.af6290b1.chunk.js": "/yahtzee-extreme-calculator/static/js/453.af6290b1.chunk.js",
+    "index.html": "/yahtzee-extreme-calculator/index.html",
+    "main.d0b74a75.css.map": "/yahtzee-extreme-calculator/static/css/main.d0b74a75.css.map",
+    "main.54c2b3d0.js.map": "/yahtzee-extreme-calculator/static/js/main.54c2b3d0.js.map",
+    "453.af6290b1.chunk.js.map": "/yahtzee-extreme-calculator/static/js/453.af6290b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0b74a75.css",
+    "static/js/main.54c2b3d0.js"
+  ]
+}
