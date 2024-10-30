@@ -1,0 +1,124 @@
+.dieInputBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 10vh;
+    width: 10vw;
+}
+
+
+.dieInputUp, dieInputDown, dieInputArrowHidden {
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.dieInputArrowHidden {
+    visibility: hidden;
+}
+
+.dieInputSquare {
+    width: 100%;
+    padding-top: 100%;
+    position: relative;
+}
+
+.dieInputValueActive, .dieInputValueInActive {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: black;
+}
+
+.dieInputValueActive {
+    background-color: thistle;
+}
+
+.dieInputValueActiveRed {
+    background-color: red;
+    color: white;
+}
+
+.dieBar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+.categoryChances {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+
+    background-color: thistle;
+    margin-bottom: 2px;
+}
+
+.categoryChances .icon {
+    width: 8vh;
+    height: 8vh;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hugeIcon {
+    font-size: xxx-large;
+}
+
+.largeIcon {
+    font-size: x-large;
+}
+
+.bigIcon {
+    font-size: 1.11em;
+}
+
+.impossibleChances {
+    opacity: 20%;
+}
+
+.chanceDisplay {
+    width: 8vh;
+    height: 8vh;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: small;
+}
+
+.chanceDisplay .vbar {
+    width: 1px;
+    height: 100%;
+    background-color: black;
+}
+
+.categoryList {
+    width: 100%;
+}
+
+.calcScreen {
+    width: 100%;
+}
