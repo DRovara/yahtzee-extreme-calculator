@@ -1,5 +1,4 @@
 import Category from "./Category";
-import { probLess, valueWithFreeD6 } from "./Utils";
 
 const P: {[k1: number]: {[k2: number]: number}} = {
     0: {},

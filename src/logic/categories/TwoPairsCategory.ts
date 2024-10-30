@@ -1,5 +1,5 @@
 import Category from "./Category";
-import { probLess, valueWithFreeD6 } from "./Utils";
+import { probLess } from "./Utils";
 
 export default class TwoPairsCategory extends Category {
     constructor() {
@@ -94,6 +94,7 @@ export default class TwoPairsCategory extends Category {
     }
 
     getValues(d10: number, d6s: number[]): number[] {
+        // TODO this is incorrect
         if (d10 === -1) {
             const res = this.getValues(0, d6s);
             for(let i = 1; i < 10; i++) {

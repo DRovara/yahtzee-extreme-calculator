@@ -1,5 +1,5 @@
 import Category from "./Category";
-import { probLess, valueWithFreeD6, fact, bin, probLessOfN } from "./Utils";
+import { probLess, bin, probLessOfN } from "./Utils";
 
 export default class TwoTriplesCategory extends Category {
     constructor() {

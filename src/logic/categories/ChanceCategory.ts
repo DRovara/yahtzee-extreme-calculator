@@ -1,5 +1,5 @@
 import Category from "./Category";
-import { probLess, valueWithFreeD6 } from "./Utils";
+import { valueWithFreeD6 } from "./Utils";
 
 export default class ChanceCategory extends Category {
 
@@ -32,7 +32,6 @@ export default class ChanceCategory extends Category {
             return res;
         }
 
-        const res = [0, 0, 0];
         const dice = [d10, ...d6s];
         const free = dice.filter((x) => x === -1).length;
         const current = dice.reduce((acc, x) => acc + x, 0);

@@ -4,7 +4,7 @@ import DieBar from "./DieBar";
 
 function CalcScreen() {
     const [dice, setDice] = useState<number[]>([0, 1, 1, 1, 1, 1]);
-    const [red, setRed] = useState<boolean[]>([true, false, false, false, false, false]);
+    const red = [true, false, false, false, false, false];
     const [enabled, setEnabled] = useState<boolean[]>([true, true, true, true, true, true]);
 
     const updateMinMax = (min: number, max: number, index: number) => {

@@ -1,5 +1,5 @@
 import Category from "./Category";
-import { probLess, valueWithFreeD6 } from "./Utils";
+import { probLess } from "./Utils";
 
 export default class ExtremeYahtzeeCategory extends Category {
     constructor() {
